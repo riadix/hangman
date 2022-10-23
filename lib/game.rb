@@ -75,6 +75,8 @@ class Game
   def word
     @letters.join
   end
+  
+  private
 
   def normalize_letter(letter)
     return "Е" if letter == "Ё"
@@ -85,6 +87,4 @@ class Game
   def normalized_letters
     @letters.map{ |letter| normalize_letter(letter) }
   end
-  
-  private: normalize_letter, normalized_letters
 end
