@@ -19,5 +19,6 @@
 # Как запустить?
 
 ```
- ruby main.rb
+ bundle install
+ bundle exec ruby main.rb
 ```

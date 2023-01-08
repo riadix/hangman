@@ -7,6 +7,9 @@ if (Gem.win_platform?)
   end
 end
 
+# https://github.com/fazibear/colorize
+require 'colorize'
+
 require_relative 'lib/console_interface'
 require_relative 'lib/game'
 
